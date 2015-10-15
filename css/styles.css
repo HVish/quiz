@@ -1,0 +1,65 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+	background-color: #fff;
+}
+header{
+	height: 12vh;
+	background-color: rgb(41, 228, 41);
+	box-shadow: 2px 3px 4px rgba(20,20,20,0.3);
+}
+.container{
+	height: 80vh;
+}
+.logo{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #fff;
+	padding: 15px;
+}
+.timer{
+	color: #FFF;
+	font-size: x-large;
+}
+.timer h3{
+	position: relative;
+    left: 80%;
+}
+.qbox{
+	position: relative;
+	left: 33.333333%;
+	top: 16vh;
+	width: 33.333333%;
+	font-weight: 600;
+	background-color: rgba(234, 234, 234, 0.8);
+	color: #000;
+	box-shadow: 2px 3px 4px rgba(20,20,20,0.3);
+}
+.qheader{
+	border-bottom: 3px solid rgb(2, 210, 2);
+    color: #FFF;
+    background-color: rgb(189, 189, 189);
+    padding: 12px;
+}
+.que{
+	padding: 20px 20px 10px;
+}
+.options{
+	padding: 10px 20px 20px;
+}
+.options ul li{
+	list-style: none;
+	padding: 1px;
+}
+.options ul li span {
+    padding-right: 8px;
+}
+.response{
+	margin: 5px;
+}
+.response input{
+	padding: 5px;
+	width: 32.44%;
+}
