@@ -61,5 +61,6 @@ header{
 }
 .response input{
 	padding: 5px;
-	width: 32.44%;
+	width: 33.333333%;
+	float: left;
 }
