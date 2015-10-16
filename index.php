@@ -13,7 +13,11 @@
 							<h1>QuizBitz</h1>
 						</div>
 						<div class="timer col-8">
-							<h3>00:00</h3>
+							<div><h3>0</h3></div>
+							<div><h3>0</h3></div>
+							<div><h3>:</h3></div>
+							<div><h3>0</h3></div>
+							<div><h3>0</h3></div>
 						</div> 
 					</div><!--row-->
 					<div class="progress"></div>
