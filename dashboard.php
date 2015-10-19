@@ -1,19 +1,20 @@
 <html>
 	<head>
 		<?php include 'head.php'?>
+		<title>Dashboard</title>
 		<link href="css/dashboard.css" rel="stylesheet">
 	</head>
 	<body>
 		<?php include 'header.php'?>
 		<div class="row wrapper">
-			<div class="col-3 row tab">
+			<div class="col-2 row tab">
 				<ul>
-					<li class="th_active">Add Question</li>
+					<li class="th_active">Add Questions</li>
 					<li>List of Questions</li>
 					<li>Marking Schemes</li>
 				</ul>
 			</div>
-			<div class="col-9 tab_container">
+			<div class="col-10 tab_container">
 				<div class="tc_active">
 					<p>
 						1Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus blanditiis sit odit, accusamus voluptatum quia nulla possimus voluptates, saepe, impedit optio quas. Id cumque eveniet dignissimos necessitatibus error eos temporibus!
