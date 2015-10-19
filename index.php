@@ -1,8 +1,7 @@
 <html>
 	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="css/responsive.css" rel="stylesheet">
-		<link href="css/styles.css" rel="stylesheet">
+		<?php include 'head.php'?>
+		<link href="css/index.css" rel="stylesheet">
 		<title>QuizBitz</title>
 	</head>
 	<body>
@@ -47,8 +46,8 @@
 			<div class="progress"></div>
 		</header>
 		<div class="container">
-			<div class="qbox">
-				<div class="row qheader">
+			<div class="window_box">
+				<div class="row window_title">
 					<h2>Question Number: 00</h2>
 				</div>
 				<div class="row que">
@@ -70,6 +69,6 @@
 			</div><!--qbox-->
 		</div><!--container-->
 		<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
-	    <script type="text/javascript" src="js/scripts.js"></script>
+	    <script type="text/javascript" src="js/index.js"></script>
 	</body>
 </html>

@@ -1,4 +1,4 @@
-var min = 0, sec = 60;
+var min = 0, sec = 10;
 
 var m10 = Math.floor(min/10);
 var m = min%10;
@@ -18,6 +18,8 @@ function updateTime(){
 	if(sec == 0){
 		sec = 59;
 		if(min == 0){
+			rmClass();
+			setTime();
 			alert("Time up!");
 			clearInterval(tm);
 			sec = 0;

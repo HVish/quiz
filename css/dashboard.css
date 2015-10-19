@@ -1,0 +1,33 @@
+.wrapper{
+	height: 88vh;
+}
+.tab{
+	color: #FFF;
+	border-right: 1px solid rgb(150,150,150);
+	background-color: #ccc;
+}
+.tab ul{
+	width: 100%;
+}
+.tab ul li{
+	background-color: #ccc;
+	border-bottom: 1px solid rgb(150,150,150);
+	position: relative;
+	right: -1px;
+	height: inherit;
+    padding: 15px;
+	width: 100%;
+}
+.tab ul li.th_active{
+	background-color: #FFF;
+	border: 1px solid #FFF;
+	color: #ccc;
+}
+.tab_container div{
+	background-color: #FFF;
+	display: none;
+	padding: 30px;
+}
+.tab_container .tc_active{
+	display: block;
+}
