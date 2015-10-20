@@ -16,19 +16,13 @@
 			</div>
 			<div class="col-10 tab_container">
 				<div class="tc_active">
-					<p>
-						1Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus blanditiis sit odit, accusamus voluptatum quia nulla possimus voluptates, saepe, impedit optio quas. Id cumque eveniet dignissimos necessitatibus error eos temporibus!
-					</p>
+					<?php include 'addquestions.php'?>
 				</div>
 				<div>
-					<p>
-						2Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus blanditiis sit odit, accusamus voluptatum quia nulla possimus voluptates, saepe, impedit optio quas. Id cumque eveniet dignissimos necessitatibus error eos temporibus!
-					</p>
+					<?php include 'listofquestions.php'?>
 				</div>
 				<div>
-					<p>
-						3Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus blanditiis sit odit, accusamus voluptatum quia nulla possimus voluptates, saepe, impedit optio quas. Id cumque eveniet dignissimos necessitatibus error eos temporibus!
-					</p>
+					<?php include 'markingscheme.php'?>
 				</div>
 			</div>
 		</div>

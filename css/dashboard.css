@@ -37,3 +37,31 @@
 .tab_container .tc_active{
 	display: block;
 }
+fieldset {
+    padding: 20px;
+    font-size: large;
+	border-color: #B6FDB6;
+}
+textarea {
+    margin: 10px 0px;
+	padding: 6px;
+    width: 100%;
+    resize: none;
+    overflow: auto;
+	font-size: large;
+}
+input[type="text"] {
+    padding: 6px;
+    margin: 5px 0px;
+    width: 100%;
+    font-size: inherit;
+}
+input[type="submit"] {
+    margin: 5px 0px;
+    padding: 8px;
+    font-size: inherit;
+}
+input[type="text"]:focus,.login input[type="password"]:focus,
+textarea:focus {
+    outline-color: rgb(41, 228, 41);
+}
