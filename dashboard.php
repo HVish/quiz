@@ -12,6 +12,7 @@
 					<li class="th_active">Add Questions</li>
 					<li>List of Questions</li>
 					<li>Marking Schemes</li>
+					<li>Results</li>
 				</ul>
 			</div>
 			<div class="col-10 tab_container">
@@ -23,6 +24,9 @@
 				</div>
 				<div>
 					<?php include 'markingscheme.php'?>
+				</div>
+				<div>
+					<?php include 'results.php'?>
 				</div>
 			</div>
 		</div>

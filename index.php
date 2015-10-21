@@ -13,6 +13,24 @@
 				<div class="timer col-8">
 					<div>
 						<ul>
+							<li><h3 id="hr10_v">0</h3></li>
+							<li><h3 id="hr10_i">0</h3></li>
+						</ul>
+					</div>
+					<div>
+						<ul>
+							<li><h3 id="hr_v">0</h3></li>
+							<li><h3 id="hr_i">0</h3></li>
+						</ul>
+					</div>
+					<div>
+						<ul>
+							<li><h3>:</h3></li>
+							<li><h3>:</h3></li>
+						</ul>
+					</div>
+					<div>
+						<ul>
 							<li><h3 id="min10_v">0</h3></li>
 							<li><h3 id="min10_i">0</h3></li>
 						</ul>

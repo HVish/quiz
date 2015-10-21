@@ -12,8 +12,8 @@
 			</div>
 			<div class="window_body">
 				<form class="row login" action="dashboard.php" method="post">
-					<input type="text" placeholder="Username"><br>
-					<input type="password" placeholder="Password"><br>
+					<input type="text" name="user" placeholder="Username"><br>
+					<input type="password" name="passwd" placeholder="Password"><br>
 					<input type="submit" value="Login"><br>
 				</form>
 			</div>
