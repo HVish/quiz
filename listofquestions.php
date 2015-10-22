@@ -1,6 +1,5 @@
 <table>
 	<tr>
-		<th>S. No.</th>
 		<th>Question</th>
 		<th>Correct Answer</th>
 		<th>Wrong Answer1</th>
@@ -26,7 +25,6 @@
 		    // output data of each row
 		    while($row = $result->fetch_assoc()) {
 		        echo "<tr>
-						<td>{$row['qid']}</td>
 						<td>{$row['que']}</td>
 						<td>{$row['op1']}</td>
 						<td>{$row['op2']}</td>
