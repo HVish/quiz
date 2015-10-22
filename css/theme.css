@@ -40,3 +40,6 @@ header{
 .window_body{
 	padding: 20px;
 }
+.error{
+	color: #F00;
+}

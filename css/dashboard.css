@@ -95,3 +95,7 @@ table tr:nth-child(2n+1) {
     background-color: rgba(100,255,40,0.2);
 	color: rgb(52, 181, 42);
 }
+.tab_container div.error{
+    display: block;
+    padding: 0px;
+}
