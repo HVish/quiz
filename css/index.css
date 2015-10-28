@@ -5,8 +5,9 @@
 .timer div{
 	position: relative;
     left: 80%;
-	height: 20px;
+	height: 25px;
 	overflow: hidden;
+	line-height: 48px;
 }
 .que{
 	padding: 20px 20px 10px;
@@ -57,7 +58,7 @@
 }
 .timer div ul {
     position: relative;
-    top: -10px;
+    top: -13px;
 }
 .timer div ul li {
     list-style: none;
@@ -74,7 +75,7 @@
 }
 @keyframes digitup{
 	from{top: 0px;}
-	to{top: -20px;}
+	to{top: -29px;}
 }
 .moveup_ud{
 	animation: digitup 1s infinite;
