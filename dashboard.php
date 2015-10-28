@@ -3,6 +3,8 @@
 		<?php include 'head.php'?>
 		<title>Dashboard</title>
 		<link href="css/dashboard.css" rel="stylesheet">
+		<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+	    <script type="text/javascript" src="js/dashboard.js"></script>
 	</head>
 	<body>
 		<?php include 'header.php'?>
@@ -30,7 +32,5 @@
 				</div>
 			</div>
 		</div>
-		<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
-	    <script type="text/javascript" src="js/dashboard.js"></script>
 	</body>
 </html>

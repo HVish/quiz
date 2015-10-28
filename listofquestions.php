@@ -1,5 +1,6 @@
 <table>
 	<tr>
+		<th>S. No.</th>
 		<th>Question</th>
 		<th>Correct Answer</th>
 		<th>Wrong Answer1</th>
@@ -22,15 +23,18 @@
 		$result = $db->query($sql);
 		
 		if ($result->num_rows > 0) {
+			$qno = 1;
 		    // output data of each row
 		    while($row = $result->fetch_assoc()) {
 		        echo "<tr>
+						<td>{$qno}</td>
 						<td>{$row['que']}</td>
 						<td>{$row['op1']}</td>
 						<td>{$row['op2']}</td>
 						<td>{$row['op3']}</td>
 						<td>{$row['op4']}</td>
 					</tr>";
+				$qno++;
 		    }
 		} else {
 		    echo "0 results";

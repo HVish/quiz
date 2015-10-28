@@ -1,3 +1,25 @@
+<?php
+	$sname = "localhost";
+		$sqluser = "root";
+		$sqlpasswd = "";
+		
+		// Create connection
+		$db = new mysqli($sname, $sqluser, $sqlpasswd,'QuizBitz');
+		
+		// Check connection
+		if ($db->connect_error) {
+		    die("Connection failed: " . $db->connect_error);
+		} 	
+		$sql = "SELECT qid, que, op1, op2, op3, op4 FROM questions";
+		$result = $db->query($sql);
+		
+		if ($result->num_rows > 0) {
+			
+		} else {
+		    echo "0 results";
+		}
+		$db->close();
+?>
 <html>
 	<head>
 		<?php include 'head.php'?>

@@ -11,7 +11,7 @@
 	    die("Connection failed: " . $db->connect_error);
 	} 
 	
-	if(($_SERVER["REQUEST_METHOD"] == "POST")){
+	if(($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["addque"]))){
 		if(check_empty() == false){
 			$que = test_input($que);
 			$op1 = test_input($op1);
@@ -93,6 +93,6 @@
 		<div class="error"><?php echo $er_op3;?></div>
 		<input type="text" placeholder="Wrong Answer3" name="op4" value="<?php echo $op4;?>">
 		<div class="error"><?php echo $er_op4;?></div>
-		<input type="submit" value="Submit Question">
+		<input type="submit" name="addque" value="Submit Question">
 	</fieldset>
 </form>
