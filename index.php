@@ -14,11 +14,30 @@
 		$result = $db->query($sql);
 		
 		if ($result->num_rows > 0) {
-			
+			$Q_NO = 0;
+		    while($row = $result->fetch_assoc()) {
+		        $Q_SET[] = array($row['que'],$row['op1'],$row['op2'],$row['op3'],$row['op4']);
+				$Q_NO++;
+		    }
 		} else {
 		    echo "0 results";
 		}
 		$db->close();
+		static $qno = 0;
+		function ChangeQuestion(){
+			global $qno;
+			$qno++;
+			echo $qno;
+		}
+		function printQNO(){
+			
+		}
+		function printQUE(){
+			
+		}
+		function printOPT($op){
+			
+		}
 ?>
 <html>
 	<head>
@@ -88,17 +107,17 @@
 		<div class="container">
 			<div class="window_box">
 				<div class="row window_title">
-					<h2>Question Number: 00</h2>
+					<h2>Question Number: <?php echo $qno;?></h2>
 				</div>
 				<div class="row que">
-					<p>Q: This is where your question will be displayed.</p>
+					<p>Q: <?php echo $Q_SET[$qno][0];?></p>
 				</div>
 				<div class="row options">
 					<ul>
-						<li><span><input type="checkbox" name="choice" value="1"></span>Option1</li>
-						<li><span><input type="checkbox" name="choice" value="1"></span>Option2</li>
-						<li><span><input type="checkbox" name="choice" value="1"></span>Option3</li> 
-						<li><span><input type="checkbox" name="choice" value="1"></span>Option4</li>
+						<li><span><input type="radio" name="choice" value="1"></span><?php echo $Q_SET[$qno][1];?></li>
+						<li><span><input type="radio" name="choice" value="1"></span><?php echo $Q_SET[$qno][2];?></li>
+						<li><span><input type="radio" name="choice" value="1"></span><?php echo $Q_SET[$qno][3];?></li> 
+						<li><span><input type="radio" name="choice" value="1"></span><?php echo $Q_SET[$qno][4];?></li>
 					</ul>
 				</div><!--options-->
 				<div class="row response">
